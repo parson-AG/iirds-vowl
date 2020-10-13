@@ -1,0 +1,5137 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "de", "en" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://iirds.tekom.de/iirds", "http://www.w3.org/2006/vcard/ns" ],
+    "prefixList" : {
+      "iirds" : "http://iirds.tekom.de/iirds#",
+      "owl" : "http://www.w3.org/2002/07/owl#",
+      "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "xsd" : "http://www.w3.org/2001/XMLSchema#",
+      "xml" : "http://www.w3.org/XML/1998/namespace",
+      "schema" : "http://schema.org/",
+      "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "iri" : "No IRI set"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "owl:Class"
+  }, {
+    "id" : "97",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "99",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "113",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "80",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "108",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "116",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "117",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "93",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "121",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "120",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "71",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "105",
+    "type" : "owl:Class"
+  }, {
+    "id" : "122",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "125",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "146",
+    "type" : "owl:Class"
+  }, {
+    "id" : "103",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "159",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "165",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "163",
+    "type" : "owl:Class"
+  }, {
+    "id" : "100",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "96",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "195",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "130",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "193",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "124",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "145",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "185",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "98",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://iirds.tekom.de/iirds#Party",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Akteur",
+      "IRI-based" : "Party",
+      "en" : "Party"
+    },
+    "comment" : {
+      "en" : "Party related to an iiRDS domain entity. "
+    },
+    "attributes" : [ "external" ],
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#InformationType",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Informationsart",
+      "IRI-based" : "InformationType",
+      "en" : "Information type"
+    },
+    "subClasses" : [ "4", "5", "6", "7" ],
+    "comment" : {
+      "en" : "Type of information. Abstract base class of document and topic type."
+    },
+    "attributes" : [ "external" ],
+    "id" : "2",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#Topic",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Topic",
+      "IRI-based" : "Topic",
+      "en" : "Topic"
+    },
+    "comment" : {
+      "en" : "A topic is a unit of information covering a single subject."
+    },
+    "attributes" : [ "external" ],
+    "id" : "12",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#ProductFunction",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Produktfunktion",
+      "IRI-based" : "ProductFunction",
+      "en" : "Product function"
+    },
+    "individuals" : [ {
+      "iri" : "http://iirds.tekom.de/iirds#GenericProductFunction",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Generic instance of the ProductFunction class."
+      },
+      "labels" : {
+        "de" : "Produktfunktion",
+        "IRI-based" : "GenericProductFunction",
+        "en" : "Product function"
+      }
+    } ],
+    "comment" : {
+      "en" : "A function that a product or component provides or implements."
+    },
+    "attributes" : [ "external" ],
+    "id" : "13",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#FunctionalMetadata",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Funktionale Metadaten",
+      "IRI-based" : "FunctionalMetadata",
+      "en" : "Functional metadata"
+    },
+    "subClasses" : [ "20", "21", "22", "23" ],
+    "comment" : {
+      "en" : "Parent class for metadata supporting advanced content delivery scenarios and content assemblies for specific purposes."
+    },
+    "attributes" : [ "external" ],
+    "id" : "18",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#ContentLifeCycleStatus",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Lebenszyklus-Status einer Informationseinheit",
+      "IRI-based" : "ContentLifeCycleStatus",
+      "en" : "Information unit lifecycle status"
+    },
+    "comment" : {
+      "en" : "Content lifecycle status of an information unit."
+    },
+    "attributes" : [ "external" ],
+    "id" : "16",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#SkillLevel",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Kenntnisstufe",
+      "IRI-based" : "SkillLevel",
+      "en" : "Skill level"
+    },
+    "individuals" : [ {
+      "iri" : "http://iirds.tekom.de/iirds#GenericSkillLevel",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Generic instance of the SkillLevel class."
+      },
+      "labels" : {
+        "de" : "Kenntnisstufe",
+        "IRI-based" : "GenericSkillLevel",
+        "en" : "Skill level"
+      }
+    } ],
+    "comment" : {
+      "en" : "Docking point for custom skill levels that the users of the technical system and the associated technical information require."
+    },
+    "attributes" : [ "external" ],
+    "id" : "36",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#iirdsDomainEntity",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "iirdsDomainEntity",
+      "IRI-based" : "iirdsDomainEntity",
+      "en" : "iirdsDomainEntity"
+    },
+    "subClasses" : [ "38", "9", "39", "2", "40", "41", "1", "19" ],
+    "comment" : {
+      "de" : "Eine Entität der iiRDS-Domäne",
+      "en" : "An entity of the iiRDS domain"
+    },
+    "attributes" : [ "external" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#PlanningTime",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Planungszeit",
+      "IRI-based" : "PlanningTime",
+      "en" : "Planning time"
+    },
+    "individuals" : [ {
+      "iri" : "http://iirds.tekom.de/iirds#GenericPlanningTime",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Generic instance of the PlanningTime class."
+      },
+      "labels" : {
+        "de" : "Planungszeit",
+        "IRI-based" : "GenericPlanningTime",
+        "en" : "Planning time"
+      }
+    } ],
+    "subClasses" : [ "42", "43", "44" ],
+    "comment" : {
+      "en" : "Parent class for different types of planning time that may be referenced in technical documentation. Planning times describe periods of time required for or resulting from specific working tasks."
+    },
+    "attributes" : [ "external" ],
+    "id" : "22",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#Event",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Ereignis",
+      "IRI-based" : "Event",
+      "en" : "Event"
+    },
+    "individuals" : [ {
+      "iri" : "http://iirds.tekom.de/iirds#GenericEvent",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Generic instance of the Event class."
+      },
+      "labels" : {
+        "de" : "Ereignis",
+        "IRI-based" : "GenericEvent",
+        "en" : "Event"
+      }
+    } ],
+    "comment" : {
+      "en" : "Describes events that happen in the technical system"
+    },
+    "attributes" : [ "external" ],
+    "id" : "21",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#Role",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Rolle",
+      "IRI-based" : "Role",
+      "en" : "Role"
+    },
+    "individuals" : [ {
+      "iri" : "http://iirds.tekom.de/iirds#GenericRole",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Generic instance of the Role class."
+      },
+      "labels" : {
+        "de" : "Rolle",
+        "IRI-based" : "GenericRole",
+        "en" : "Role"
+      }
+    } ],
+    "comment" : {
+      "de" : "Andockpunkt für unternehmensspezifische Rollen für Anwender des technischen Systems und der dazugehörigen Informationen.",
+      "en" : "Docking point for custom roles for users of the technical system and the associated technical information."
+    },
+    "attributes" : [ "external" ],
+    "id" : "48",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#Document",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Dokument",
+      "IRI-based" : "Document",
+      "en" : "Document"
+    },
+    "comment" : {
+      "en" : "A unit of information in an iiRDS package that represents a complete document."
+    },
+    "attributes" : [ "external" ],
+    "id" : "37",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#ProductLifeCyclePhase",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Produktlebenszyklusphase",
+      "IRI-based" : "ProductLifeCyclePhase",
+      "en" : "Phase of product lifecycle"
+    },
+    "subClasses" : [ "53", "54", "55", "56" ],
+    "comment" : {
+      "en" : "Parent class for standardized product lifecycle phases that technical documentation may refer to."
+    },
+    "attributes" : [ "external" ],
+    "id" : "51",
+    "superClasses" : [ "52" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#TopicType",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Topictyp",
+      "IRI-based" : "TopicType",
+      "en" : "Topic type"
+    },
+    "subClasses" : [ "57", "58", "59", "60", "61", "62" ],
+    "comment" : {
+      "en" : "Defines the information type of an iiRDS topic."
+    },
+    "attributes" : [ "external" ],
+    "id" : "4",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#Rendition",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Inhaltsausprägung",
+      "IRI-based" : "Rendition",
+      "en" : "Rendition"
+    },
+    "comment" : {
+      "de" : "Inhalt einer Informationseinheit in einem bestimmten Format",
+      "en" : "Content of an information unit in a specific format"
+    },
+    "attributes" : [ "external" ],
+    "id" : "38",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#WarningMessage",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Warnhinweis",
+      "IRI-based" : "WarningMessage",
+      "en" : "Warning message"
+    },
+    "individuals" : [ {
+      "iri" : "http://iirds.tekom.de/iirds#Notice",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Information considered important but not related to personal injury."
+      },
+      "labels" : {
+        "de" : "Hinweis",
+        "IRI-based" : "Notice",
+        "en" : "Notice"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#Warning",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Describes a hazardous situation which, if not avoided, could result in death or serious injury."
+      },
+      "labels" : {
+        "de" : "Warnung",
+        "IRI-based" : "Warning",
+        "en" : "Warning"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#Caution",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Describes a hazardous situation which, if not avoided, could result in minor or moderate injury."
+      },
+      "labels" : {
+        "de" : "Vorsicht",
+        "IRI-based" : "Caution",
+        "en" : "Caution"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#GenericWarningMessage",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Warning or notice with unknown severity."
+      },
+      "labels" : {
+        "de" : "Warnhinweis",
+        "IRI-based" : "GenericWarningMessage",
+        "en" : "Warning message"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#Danger",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Describes a hazardous situation which, if not avoided, will result in death or serious injury."
+      },
+      "labels" : {
+        "de" : "Gefahr",
+        "IRI-based" : "Danger",
+        "en" : "Danger"
+      }
+    } ],
+    "comment" : {
+      "en" : "Information subject. Description of situations where a potential hazard can occur."
+    },
+    "attributes" : [ "external" ],
+    "id" : "63",
+    "superClasses" : [ "64" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#WorkingTime",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Arbeitszeit",
+      "IRI-based" : "WorkingTime",
+      "en" : "Working time"
+    },
+    "individuals" : [ {
+      "iri" : "http://iirds.tekom.de/iirds#GenericWorkingTime",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Generic instance of the WorkingTime class. "
+      },
+      "labels" : {
+        "de" : "Arbeitszeit",
+        "IRI-based" : "GenericWorkingTime",
+        "en" : "Generic working time"
+      }
+    } ],
+    "comment" : {
+      "en" : "Type of planning time: Period of time that is required for a specific working task."
+    },
+    "attributes" : [ "external" ],
+    "id" : "42",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#ProductMetadata",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Produktmetadaten",
+      "IRI-based" : "ProductMetadata",
+      "en" : "ProductMetadata"
+    },
+    "subClasses" : [ "51", "50", "10", "14" ],
+    "comment" : {
+      "en" : "Parent class for product-related metadata."
+    },
+    "attributes" : [ "external" ],
+    "id" : "52",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#IdentityDomain",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Identitäts-Domäne",
+      "IRI-based" : "IdentityDomain",
+      "en" : "Identity domain"
+    },
+    "comment" : {
+      "en" : "Domain of an identifier that is assigned to an iiRDS domain entity."
+    },
+    "attributes" : [ "external" ],
+    "id" : "67",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#DownTime",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Stillstandzeit",
+      "IRI-based" : "DownTime",
+      "en" : "Down time"
+    },
+    "individuals" : [ {
+      "iri" : "http://iirds.tekom.de/iirds#GenericDownTime",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Generic instance of the DownTime class."
+      },
+      "labels" : {
+        "de" : "Stillstandszeit",
+        "IRI-based" : "GenericDownTime",
+        "en" : "Down time"
+      }
+    } ],
+    "comment" : {
+      "en" : "Type of planning time: Period of time during which a technical system is stopped, especially during setup for an operation or when making repairs."
+    },
+    "attributes" : [ "external" ],
+    "id" : "44",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#DocumentationMetadata",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Metadaten der Dokumentation",
+      "IRI-based" : "DocumentationMetadata",
+      "en" : "Documentation metadata"
+    },
+    "subClasses" : [ "18", "52" ],
+    "comment" : {
+      "en" : "Parent class for functional metadata and product metadata."
+    },
+    "attributes" : [ "external" ],
+    "id" : "19",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#Form",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Formular",
+      "IRI-based" : "Form",
+      "en" : "Form"
+    },
+    "individuals" : [ {
+      "iri" : "http://iirds.tekom.de/iirds#GenericForm",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Generic instance of the Form class."
+      },
+      "labels" : {
+        "de" : "Formular",
+        "IRI-based" : "GenericForm",
+        "en" : "Form"
+      }
+    } ],
+    "comment" : {
+      "en" : "Class of topic types that contain information in pre-defined form fields."
+    },
+    "attributes" : [ "external" ],
+    "id" : "57",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#Learning",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Lernen",
+      "IRI-based" : "Learning",
+      "en" : "Learning"
+    },
+    "individuals" : [ {
+      "iri" : "http://iirds.tekom.de/iirds#GenericLearning",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Topic type that provides learning content."
+      },
+      "labels" : {
+        "de" : "Lernen",
+        "IRI-based" : "GenericLearning",
+        "en" : "Learning"
+      }
+    } ],
+    "comment" : {
+      "en" : "Class of topic types for learning. Learning content may comprise learning plans, learning objectives, learning content details, summaries, and assessments."
+    },
+    "attributes" : [ "external" ],
+    "id" : "58",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#Component",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Komponente",
+      "IRI-based" : "Component",
+      "en" : "Component"
+    },
+    "comment" : {
+      "en" : "Describes a component of the technical system that the documentation refers to."
+    },
+    "attributes" : [ "external" ],
+    "id" : "10",
+    "superClasses" : [ "52" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#TechnicalOverview",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Technische Übersicht",
+      "IRI-based" : "TechnicalOverview",
+      "en" : "Technical overview"
+    },
+    "individuals" : [ {
+      "iri" : "http://iirds.tekom.de/iirds#GenericTechnicalOverview",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Generic instance of the TechnicalOverview class."
+      },
+      "labels" : {
+        "de" : "Technische Übersicht",
+        "IRI-based" : "GenericTechnicalOverview",
+        "en" : "Technical overview"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#OperatingElement",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Information subject. Describes a device that a person can use to influence a machine or plant."
+      },
+      "labels" : {
+        "de" : "Bedienelement",
+        "IRI-based" : "OperatingElement",
+        "en" : "Control element"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#Symbol",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Information subject. Contains a list and explanation of symbols used in the documentation."
+      },
+      "labels" : {
+        "de" : "Symbol",
+        "IRI-based" : "Symbol",
+        "en" : "Symbol"
+      }
+    } ],
+    "comment" : {
+      "en" : "Parent class for information subjects describing content related to technical plans, diagrams, or the technical architecture of the product."
+    },
+    "attributes" : [ "external" ],
+    "id" : "87",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#Supply",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Hilfsmittel",
+      "IRI-based" : "Supply",
+      "en" : "Supply"
+    },
+    "individuals" : [ {
+      "iri" : "http://iirds.tekom.de/iirds#GenericSupply",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Generic instance of the Supply class."
+      },
+      "labels" : {
+        "de" : "Hilfsmittel",
+        "IRI-based" : "GenericSupply",
+        "en" : "Generic supply"
+      }
+    } ],
+    "comment" : {
+      "en" : "Parent class for different types of supplies required for working tasks described in technical documentation.\n"
+    },
+    "attributes" : [ "external" ],
+    "id" : "23",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#InformationUnit",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Informationseinheit",
+      "IRI-based" : "InformationUnit",
+      "en" : "Information unit"
+    },
+    "subClasses" : [ "89", "37", "12", "70" ],
+    "comment" : {
+      "en" : "A unit of information. Abstract base class for specific information units."
+    },
+    "attributes" : [ "external" ],
+    "id" : "9",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#DesignAndRealization",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Produktentstehung",
+      "IRI-based" : "DesignAndRealization",
+      "en" : "Design and realization"
+    },
+    "individuals" : [ {
+      "iri" : "http://iirds.tekom.de/iirds#Design",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Lifecycle phase of product design."
+      },
+      "labels" : {
+        "de" : "Design",
+        "IRI-based" : "Design",
+        "en" : "Design"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#Acquisition",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Lifecycle phase of a product during which services, goods, or works are acquired from an external source."
+      },
+      "labels" : {
+        "de" : "Beschaffung",
+        "IRI-based" : "Acquisition",
+        "en" : "Acquisition"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#RequirementsAnalysis",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Lifecycle phase of a product belonging to the product design; comprises the analysis and definition of requirements for the future product."
+      },
+      "labels" : {
+        "de" : "Anforderungsanalyse",
+        "IRI-based" : "RequirementsAnalysis",
+        "en" : "Requirement analysis"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#Development",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Lifecycle phase of a product progressing from detailed design to prototyping through pilot release to full product launch."
+      },
+      "labels" : {
+        "de" : "Entwicklung",
+        "IRI-based" : "Development",
+        "en" : "Development"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#GenericDesignAndRealization",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Generic instance of the DesignAndRealization class."
+      },
+      "labels" : {
+        "de" : "Produktentstehung",
+        "IRI-based" : "GenericDesignAndRealization",
+        "en" : "Design and realization"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#Production",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Lifecycle phase of a product in which the product is manufactured."
+      },
+      "labels" : {
+        "de" : "Herstellung",
+        "IRI-based" : "Production",
+        "en" : "Production"
+      }
+    } ],
+    "comment" : {
+      "en" : "Parent class for subclasses that describe product lifecycle phases related to the design, construction, and realization of a product."
+    },
+    "attributes" : [ "external" ],
+    "id" : "54",
+    "superClasses" : [ "51" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#Troubleshooting",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Störungsbeseitigung",
+      "IRI-based" : "Troubleshooting",
+      "en" : "Troubleshooting "
+    },
+    "individuals" : [ {
+      "iri" : "http://iirds.tekom.de/iirds#GenericTroubleshooting",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Topic type that contains corrective action information that helps to fix an error or remove a malfunction."
+      },
+      "labels" : {
+        "de" : "Störungsbeseitigung",
+        "IRI-based" : "GenericTroubleshooting",
+        "en" : "Troubleshooting"
+      }
+    } ],
+    "comment" : {
+      "en" : "Class of topic types. Troubleshooting topics contain corrective action information that helps to fix an error or remove a malfunction."
+    },
+    "attributes" : [ "external" ],
+    "id" : "60",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#ProductVariant",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Produktvariante",
+      "IRI-based" : "ProductVariant",
+      "en" : "Product variant"
+    },
+    "comment" : {
+      "en" : "A variation of a product with some specific characteristics or features. "
+    },
+    "attributes" : [ "external" ],
+    "id" : "50",
+    "superClasses" : [ "52" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#ContentLifeCycleStatusValue",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Wert des Lebenszyklus-Status einer Informationseinheit",
+      "IRI-based" : "ContentLifeCycleStatusValue",
+      "en" : "Value of the information unit lifecycle status"
+    },
+    "individuals" : [ {
+      "iri" : "http://iirds.tekom.de/iirds#Released",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Content lifecycle status value; indicates that the content has been released."
+      },
+      "labels" : {
+        "de" : "Veröffentlicht",
+        "IRI-based" : "Released",
+        "en" : "Released"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#Withdrawn",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Content lifecycle status value; indicates that the content has been withdrawn and is no longer valid."
+      },
+      "labels" : {
+        "de" : "Widerrufen",
+        "IRI-based" : "Withdrawn",
+        "en" : "Withdrawn"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#Reviewed",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Content lifecycle status value; indicates that the content has been reviewed."
+      },
+      "labels" : {
+        "de" : "Review durchgeführt",
+        "IRI-based" : "Reviewed",
+        "en" : "Reviewed"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#Deleted",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Content lifecycle status value; indicates that the content has been removed."
+      },
+      "labels" : {
+        "de" : "Gelöscht",
+        "IRI-based" : "Deleted",
+        "en" : "Deleted"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#InReview",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Content lifecycle status value; indicates that the content is being reviewed."
+      },
+      "labels" : {
+        "de" : "In Review",
+        "IRI-based" : "InReview",
+        "en" : "In review"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#InPreparation",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Content lifecycle status value; indicates that the content is not finished yet and is still being edited."
+      },
+      "labels" : {
+        "de" : "In Arbeit",
+        "IRI-based" : "InPreparation",
+        "en" : "In preparation"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#Approved",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Content lifecycle status value; indicates that the content has been approved."
+      },
+      "labels" : {
+        "de" : "Freigegeben",
+        "IRI-based" : "Approved",
+        "en" : "Approved"
+      }
+    } ],
+    "comment" : {
+      "en" : "Value of an information unit's lifecycle status. The value is set by involved parties, such as the manufacturer or supplier."
+    },
+    "attributes" : [ "external" ],
+    "id" : "91",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#Conformity",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Konformität",
+      "IRI-based" : "Conformity",
+      "en" : "Conformity"
+    },
+    "individuals" : [ {
+      "iri" : "http://iirds.tekom.de/iirds#GenericConformity",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Generic instance of the Conformity class."
+      },
+      "labels" : {
+        "de" : "Konformität",
+        "IRI-based" : "GenericConformity",
+        "en" : "Conformity"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#RiskAssessment",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Information subject related to conformity. Specifies that the information unit contains information on the risk assessment made within the safety engineering of the product."
+      },
+      "labels" : {
+        "de" : "Risikobewertung",
+        "IRI-based" : "RiskAssessment",
+        "en" : "Risk assessment"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#DeclarationOfConformity",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Information subject. Specifies that the information unit deals with the EU Declaration of Conformity for CE marking."
+      },
+      "labels" : {
+        "de" : "Konformitätserklärung",
+        "IRI-based" : "DeclarationOfConformity",
+        "en" : "Declaration of conformity"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#ApplicableStandards",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Information subject related to conformity. Describes content related to standards that a product needs to fulfill."
+      },
+      "labels" : {
+        "de" : "Geltende Norm und Richtlinie",
+        "IRI-based" : "ApplicableStandards",
+        "en" : "Applicable standard"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#TechnicalReport",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Information subject related to conformity. Specifies that the information unit represents a report regarding the activities or working tasks related to the product. "
+      },
+      "labels" : {
+        "de" : "Technischer Bericht",
+        "IRI-based" : "TechnicalReport",
+        "en" : "Technical report"
+      }
+    } ],
+    "comment" : {
+      "en" : "Parent class for information subjects that describe content related to applicable standards or the conformity of the product."
+    },
+    "attributes" : [ "external" ],
+    "id" : "97",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#DirectoryNode",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Verzeichnisknoten",
+      "IRI-based" : "DirectoryNode",
+      "en" : "Directory node"
+    },
+    "subClasses" : [ "98" ],
+    "comment" : {
+      "de" : "Ein Eintrag in einem Verzeichnis",
+      "en" : "A node in a directory"
+    },
+    "attributes" : [ "external" ],
+    "id" : "41",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#Process",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Prozess",
+      "IRI-based" : "Process",
+      "en" : "Process"
+    },
+    "individuals" : [ {
+      "iri" : "http://iirds.tekom.de/iirds#GenericProcess",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Generic instance of the Process class."
+      },
+      "labels" : {
+        "de" : "Prozess",
+        "IRI-based" : "GenericProcess",
+        "en" : "Process"
+      }
+    } ],
+    "comment" : {
+      "en" : "Information subject for process-related information"
+    },
+    "attributes" : [ "external" ],
+    "id" : "99",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#DocumentType",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Dokumentart",
+      "IRI-based" : "DocumentType",
+      "en" : "Document type"
+    },
+    "individuals" : [ {
+      "iri" : "http://iirds.tekom.de/iirds#SalesCatalog",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Type of document. Contains listings of available products of a producing company with consumers as the target group."
+      },
+      "labels" : {
+        "de" : "Verkaufskatalog",
+        "IRI-based" : "SalesCatalog",
+        "en" : "Sales catalog"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#QuickGuide",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Type of document. Describes a short document that contains selected instructions for a specific user group or purpose."
+      },
+      "labels" : {
+        "de" : "Kurzanleitung",
+        "IRI-based" : "QuickGuide",
+        "en" : "Quick reference guide"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#AdministratorGuide",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Type of document. Contains instructions for the administration of a technical system."
+      },
+      "labels" : {
+        "de" : "Administrationsanleitung",
+        "IRI-based" : "AdministratorGuide",
+        "en" : "Administrator guide"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#AssemblyInstructions",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "de" : "Dokumentenart. Enthält Anleitungen, die den Anwender dazu befähigen, ein physisches Produkt so zusammenzubauen, dass es die bestimmungsgemäße Verwendung erfüllt und die Sicherheit und Gesundheit von Personen nicht beeinträchtigt wird.",
+        "en" : "Type of document. Contains instructions enabling the operator to assemble a physical product so that it fulfills its intended use and does not endanger the health and safety of persons."
+      },
+      "labels" : {
+        "de" : "Montageanleitung",
+        "IRI-based" : "AssemblyInstructions",
+        "en" : "Assembly instructions"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#Certificate",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Document of legal nature that contains and certifies product information, quality, and characteristics. Usually acknowledged with a signature."
+      },
+      "labels" : {
+        "de" : "Zertifikat",
+        "IRI-based" : "Certificate",
+        "en" : "Certificate"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#TechnicalDrawingDiagram",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Type of document. Examples are flow diagrams and circuit diagrams."
+      },
+      "labels" : {
+        "de" : "Technische Zeichnung/Diagramm",
+        "IRI-based" : "TechnicalDrawingDiagram",
+        "en" : "Technical drawing/diagram"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#OperatingInstructions",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Type of document. Contains instructions for operation and use of a technical system."
+      },
+      "labels" : {
+        "de" : "Betriebsanleitung",
+        "IRI-based" : "OperatingInstructions",
+        "en" : "Operating instructions"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#Specification",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Type of document. Contains requirements and/or statements describing properties and qualities of a product to be built or manufactured."
+      },
+      "labels" : {
+        "de" : "Spezifikation",
+        "IRI-based" : "Specification",
+        "en" : "Specification"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#TransportInstructions",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Type of document. Contains instructions for transporting the product or its components from one place to another."
+      },
+      "labels" : {
+        "de" : "Transportanleitung",
+        "IRI-based" : "TransportInstructions",
+        "en" : "Transport instructions"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#IdentificationDocument",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Type of document. "
+      },
+      "labels" : {
+        "de" : "Identifikationsdokument",
+        "IRI-based" : "IdentificationDocument",
+        "en" : "Identification document"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#RepairInstructions",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Type of document. Contains instructions for restoring a product to a working condition."
+      },
+      "labels" : {
+        "de" : "Reparaturanleitung",
+        "IRI-based" : "RepairInstructions",
+        "en" : "Repair instructions"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#ElectronicIdentificationPlate",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Electronically readable label on a machine or component that provides information on the identity of the manufacturer and the product, as well as on the technical characteristics of the product."
+      },
+      "labels" : {
+        "de" : "Elektronisches Typenschild",
+        "IRI-based" : "ElectronicIdentificationPlate",
+        "en" : "Electronic identification plate"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#MaintenanceInstructions",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Type of document. Contains instructions of all technical and management actions intended to retain an item in a state in which it can perform as required."
+      },
+      "labels" : {
+        "de" : "Wartungsanleitung",
+        "IRI-based" : "MaintenanceInstructions",
+        "en" : "Maintenance instructions"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#ContractualDocument",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Document that is part of or accompanies a contract."
+      },
+      "labels" : {
+        "de" : "Vertragliches Dokument",
+        "IRI-based" : "ContractualDocument",
+        "en" : "Contractual document"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#InstallationInstructions",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Type of document. Contains instructions enabling the operator or administrator to assemble or install a physical product or software so that it fulfills its intended use."
+      },
+      "labels" : {
+        "de" : "Installationsanleitung",
+        "IRI-based" : "InstallationInstructions",
+        "en" : "Installation instructions"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#SafetyInstructions",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Contains general safety-related information provided by the manufacturer that must be considered during assembly, operation, maintenance, repair, and disassembly of the product. Safety information related to individual tasks is provided in the tasks."
+      },
+      "labels" : {
+        "de" : "Sicherheitsanleitung",
+        "IRI-based" : "SafetyInstructions",
+        "en" : "Safety instructions"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#CEDeclarationOfConformity",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "de" : "Bestätigung des Hersteller (bzw. falls dieser seinen Sitz außerhalb der EU hat, sein Bevollmächtigter mit Sitz in der EU), dass ein von ihm in Verkehr gebrachtes Produkt den grundlegenden Gesundheits- und Sicherheitsanforderungen aller relevanten europäischen Richtlinien entspricht, also mit ihnen konform ist.",
+        "en" : "Type of document. Created as a result of a procedure whereby the manufacture or authorized representative \"ensures and declares\" that the products concerned satisfy the requirements of the directives that apply to them."
+      },
+      "labels" : {
+        "de" : "CE-Konformitätserklärung",
+        "IRI-based" : "CEDeclarationOfConformity",
+        "en" : "CE declaration of conformity"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#Plan",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Describes documents containing technical plans for a component or machine."
+      },
+      "labels" : {
+        "de" : "Plan",
+        "IRI-based" : "Plan",
+        "en" : "Plan"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#BillOfMaterials",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "List of sub-components, sub-modules and parts of a product. The materials are listed with their identity and characteristics so that they can be identified within the product and procured."
+      },
+      "labels" : {
+        "de" : "Stückliste",
+        "IRI-based" : "BillOfMaterials",
+        "en" : "Bill of materials"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#PartsCatalog",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Type of document. Contains listings of product names and their part numbers and graphics which are necessary for the aftersales service, but do not include prices or availabilities."
+      },
+      "labels" : {
+        "de" : "Teilekatalog",
+        "IRI-based" : "PartsCatalog",
+        "en" : "Parts catalog"
+      }
+    } ],
+    "comment" : {
+      "en" : "The type of a document."
+    },
+    "attributes" : [ "external" ],
+    "id" : "7",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#ProductFeature",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Produktmerkmal",
+      "IRI-based" : "ProductFeature",
+      "en" : "Product feature"
+    },
+    "individuals" : [ {
+      "iri" : "http://iirds.tekom.de/iirds#GenericProductFeature",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Generic instance of the ProductFeature class."
+      },
+      "labels" : {
+        "de" : "Produktmerkmal",
+        "IRI-based" : "GenericProductFeature",
+        "en" : "Product feature"
+      }
+    } ],
+    "subClasses" : [ "100", "13" ],
+    "comment" : {
+      "en" : "Parent class for characteristics and functions of a product or component."
+    },
+    "attributes" : [ "external" ],
+    "id" : "14",
+    "superClasses" : [ "52" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#AdministrativeMetadata",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Verwaltungsmetadaten",
+      "IRI-based" : "AdministrativeMetadata",
+      "en" : "Administrative metadata"
+    },
+    "subClasses" : [ "0", "103", "16", "67", "105", "91" ],
+    "comment" : {
+      "en" : "Parent class for administrative metadata, such as status and identifier. "
+    },
+    "attributes" : [ "external" ],
+    "id" : "1",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "113",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "80",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "108",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "116",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "117",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#Package",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Paket",
+      "IRI-based" : "Package",
+      "en" : "Package"
+    },
+    "comment" : {
+      "en" : "A set of information in terms of documents and topics with their metadata."
+    },
+    "attributes" : [ "external" ],
+    "id" : "70",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "83",
+    "label" : {
+      "IRI-based" : "dateTimeStamp"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "86",
+    "label" : {
+      "IRI-based" : "dateTimeStamp"
+    }
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#Selector",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Selektor",
+      "IRI-based" : "Selector",
+      "en" : "Selector"
+    },
+    "subClasses" : [ "33", "34" ],
+    "comment" : {
+      "de" : "Verweis auf eine physikalische Ressource.",
+      "en" : "Pointer to a physical resource."
+    },
+    "attributes" : [ "external" ],
+    "id" : "40",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "93",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "121",
+    "label" : {
+      "IRI-based" : "dateTimeStamp"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "73",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "120",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "75",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "71",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#PartyRole",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Akteursrolle",
+      "IRI-based" : "PartyRole",
+      "en" : "Party role"
+    },
+    "individuals" : [ {
+      "iri" : "http://iirds.tekom.de/iirds#Customer",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Instance of the PartyRole class describing the role of an actor related to an iiRDS domain entity."
+      },
+      "labels" : {
+        "de" : "Kunde",
+        "IRI-based" : "Customer",
+        "en" : "Customer"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#Creator",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Instance of the PartyRole class describing the role of an actor related to an iiRDS domain entity."
+      },
+      "labels" : {
+        "de" : "Ersteller",
+        "IRI-based" : "Creator",
+        "en" : "Creator"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#Supplier",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Instance of the PartyRole class describing the role of an actor related to an iiRDS domain entity."
+      },
+      "labels" : {
+        "de" : "Zulieferer",
+        "IRI-based" : "Supplier",
+        "en" : "Supplier"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#PerformedBy",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Instance of the PartyRole class describing the role of an actor related to an iiRDS domain entity."
+      },
+      "labels" : {
+        "de" : "Durchgeführt von",
+        "IRI-based" : "PerformedBy",
+        "en" : "Performed by"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#Contributor",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Instance of the PartyRole class describing the role of an actor related to an iiRDS domain entity."
+      },
+      "labels" : {
+        "de" : "Beteiligter",
+        "IRI-based" : "Contributor",
+        "en" : "Contributor"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#Author",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Instance of the PartyRole class describing the role of an actor related to an iiRDS domain entity."
+      },
+      "labels" : {
+        "de" : "Autor",
+        "IRI-based" : "Author",
+        "en" : "Author"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#Inspector",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Instance of the PartyRole class describing the role of an actor related to an iiRDS domain entity."
+      },
+      "labels" : {
+        "de" : "Prüfer",
+        "IRI-based" : "Inspector",
+        "en" : "Inspector"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#Manufacturer",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Instance of the PartyRole class describing the role of an actor related to an iiRDS domain entity."
+      },
+      "labels" : {
+        "de" : "Hersteller",
+        "IRI-based" : "Manufacturer",
+        "en" : "Manufacturer"
+      }
+    } ],
+    "comment" : {
+      "en" : "Role of a party related to an iiRDS domain entity."
+    },
+    "attributes" : [ "external" ],
+    "id" : "105",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "122",
+    "label" : {
+      "IRI-based" : "dateTimeStamp"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "125",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#MaintenanceInterval",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Wartungsintervall",
+      "IRI-based" : "MaintenanceInterval",
+      "en" : "Maintenance interval"
+    },
+    "individuals" : [ {
+      "iri" : "http://iirds.tekom.de/iirds#GenericMaintenanceInterval",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Generic instance of the MaintenanceInterval class."
+      },
+      "labels" : {
+        "de" : "Wartungsintervall",
+        "IRI-based" : "GenericMaintenanceInterval",
+        "en" : "Maintenance interval"
+      }
+    } ],
+    "comment" : {
+      "en" : "Type of planning time: Fixed time interval for the scheduled maintenance of a technical system or its parts."
+    },
+    "attributes" : [ "external" ],
+    "id" : "43",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#Use",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Nutzung",
+      "IRI-based" : "Use",
+      "en" : "Use"
+    },
+    "individuals" : [ {
+      "iri" : "http://iirds.tekom.de/iirds#Diagnostics",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Lifecycle phase of a product containing procedures for locating errors."
+      },
+      "labels" : {
+        "de" : "Fehlerdiagnose",
+        "IRI-based" : "Diagnostics",
+        "en" : "Diagnostics"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#Repair",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Lifecycle phase of a product that describes activities for restoring the product to a working and sound condition after damage or wear and tear."
+      },
+      "labels" : {
+        "de" : "Reparatur",
+        "IRI-based" : "Repair",
+        "en" : "Repair"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#Fault",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "de" : "Phase im Produktlebenszyklus, in der Störungen des bestimmungsgemäßen Betriebes einer technischen Anlage, einer Software oder eines technischen Systems auftreten.",
+        "en" : "Product lifecycle phase of a technical system in which the intended use and operation of a technical system or software is interrupted due to an error or malfunction."
+      },
+      "labels" : {
+        "de" : "Störung",
+        "IRI-based" : "Fault",
+        "en" : "Fault"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#Operation",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Lifecycle phase of a product in which a technical product or system is actively used and operated."
+      },
+      "labels" : {
+        "de" : "Betrieb",
+        "IRI-based" : "Operation",
+        "en" : "Operation"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#EmergencyOperation",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Product lifecycle phase of a technical system in which the system's functionality is reduced to a minimum due to an error or emergency situation."
+      },
+      "labels" : {
+        "de" : "Notbetrieb",
+        "IRI-based" : "EmergencyOperation",
+        "en" : "Emergency operation"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#Maintenance",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Lifecycle phase of a product that describes activities of all technical and management actions intended to retain an item in a state in which it can perform as required."
+      },
+      "labels" : {
+        "de" : "Wartung",
+        "IRI-based" : "Maintenance",
+        "en" : "Maintenance"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#GenericUse",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Generic instance of the Use class."
+      },
+      "labels" : {
+        "de" : "Nutzung",
+        "IRI-based" : "GenericUse",
+        "en" : "Use"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#Decommissioning",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Lifecycle phase of a product describing the shut-down and transfer into a safe state."
+      },
+      "labels" : {
+        "de" : "Außerbetriebnahme",
+        "IRI-based" : "Decommissioning",
+        "en" : "Decommissioning"
+      }
+    } ],
+    "comment" : {
+      "de" : "Produktlebenszyklusphase: Oberklasse für den Gebrauch eines Produkts.",
+      "en" : "Parent class for subclasses that describe product lifecycle phases related to using a product or technical system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "55",
+    "superClasses" : [ "51" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#Reference",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Referenz",
+      "IRI-based" : "Reference",
+      "en" : "Reference"
+    },
+    "individuals" : [ {
+      "iri" : "http://iirds.tekom.de/iirds#GenericReference",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Generic instance of the Reference class. "
+      },
+      "labels" : {
+        "de" : "Referenz",
+        "IRI-based" : "GenericReference",
+        "en" : "Reference"
+      }
+    } ],
+    "comment" : {
+      "de" : "Class of topic types that contain information that supports users as they perform a task, meaning data that is looked up rather than memorized."
+    },
+    "attributes" : [ "external" ],
+    "id" : "62",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#Formality",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Formalität",
+      "IRI-based" : "Formality",
+      "en" : "Formality"
+    },
+    "individuals" : [ {
+      "iri" : "http://iirds.tekom.de/iirds#LegalInformation",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Information subject for legal information."
+      },
+      "labels" : {
+        "de" : "Rechtlicher Hinweis",
+        "IRI-based" : "LegalInformation",
+        "en" : "Legal information"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#WarrantyConditions",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Information subject. Contains the warranty conditions."
+      },
+      "labels" : {
+        "de" : "Garantiebedingungen",
+        "IRI-based" : "WarrantyConditions",
+        "en" : "Warranty conditions"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#ManufacturerInformation",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Information subject. Information about the manufacturer of a product like name and address."
+      },
+      "labels" : {
+        "de" : "Herstellerinformation",
+        "IRI-based" : "ManufacturerInformation",
+        "en" : "Manufacturer information"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#ContactInformation",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Information subject. Contact information of the supplier."
+      },
+      "labels" : {
+        "de" : "Kontaktdaten",
+        "IRI-based" : "ContactInformation",
+        "en" : "Contact information"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#GenericFormality",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Generic instance of the Formality class."
+      },
+      "labels" : {
+        "de" : "Formalie",
+        "IRI-based" : "GenericFormality",
+        "en" : "Formality"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#LicenceTerm",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Information subject describing licensing conditions."
+      },
+      "labels" : {
+        "de" : "Lizenzbedingung",
+        "IRI-based" : "LicenceTerm",
+        "en" : "License terms"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#ProductIdentification",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Information subject: Describes a name plate or similar that identifies the product."
+      },
+      "labels" : {
+        "de" : "Produktidentifikation",
+        "IRI-based" : "ProductIdentification",
+        "en" : "Product identification"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#ProductName",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Information subject. Contains the name of the product."
+      },
+      "labels" : {
+        "de" : "Produktbezeichnung",
+        "IRI-based" : "ProductName",
+        "en" : "Product name"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#ScopeOfDelivery",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Information subject. Specifies the scope of the delivery."
+      },
+      "labels" : {
+        "de" : "Lieferumfang",
+        "IRI-based" : "ScopeOfDelivery",
+        "en" : "Scope of delivery"
+      }
+    } ],
+    "comment" : {
+      "en" : "Parent class for information subjects that describe content related to official or legal documents."
+    },
+    "attributes" : [ "external" ],
+    "id" : "146",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#Identity",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Identität",
+      "IRI-based" : "Identity",
+      "en" : "Identity"
+    },
+    "comment" : {
+      "en" : "Complex identifier of an iiRDS domain entity. Each identifier must be related to the identity domain within which it is unambiguous."
+    },
+    "attributes" : [ "external" ],
+    "id" : "103",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#InformationSubject",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Informationsthema",
+      "IRI-based" : "InformationSubject",
+      "en" : "Information subject"
+    },
+    "subClasses" : [ "97", "99", "87", "165", "64", "146", "159", "163" ],
+    "comment" : {
+      "en" : "Type of information. Abstract base class of subjects that an information unit covers."
+    },
+    "attributes" : [ "external" ],
+    "id" : "6",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#Collection",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Zusammenstellung",
+      "IRI-based" : "Collection",
+      "en" : "Collection"
+    },
+    "individuals" : [ {
+      "iri" : "http://iirds.tekom.de/iirds#GenericCollection",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Information subject. Indicates that the content represents a collection of information assembled from different information units."
+      },
+      "labels" : {
+        "de" : "Zusammenstellung",
+        "IRI-based" : "GenericCollection",
+        "en" : "Collection"
+      }
+    } ],
+    "comment" : {
+      "en" : "Parent class for information subjects representing collections of specific information, such as list of spare parts or maintenance plan."
+    },
+    "attributes" : [ "external" ],
+    "id" : "159",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#Qualification",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Qualifikation",
+      "IRI-based" : "Qualification",
+      "en" : "Qualification"
+    },
+    "subClasses" : [ "36", "48" ],
+    "comment" : {
+      "en" : "Parent class for different types of skills and roles required for working tasks described in technical documentation. "
+    },
+    "attributes" : [ "external" ],
+    "id" : "20",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#Functionality",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Funktionalität",
+      "IRI-based" : "Functionality",
+      "en" : "Functionality"
+    },
+    "individuals" : [ {
+      "iri" : "http://iirds.tekom.de/iirds#GenericFunctionality",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Generic instance of the Functionality class."
+      },
+      "labels" : {
+        "de" : "Funktionalität",
+        "IRI-based" : "GenericFunctionality",
+        "en" : "Functionality"
+      }
+    } ],
+    "comment" : {
+      "en" : "Parent class for information subjects that describe content related to specific functionalities of the product."
+    },
+    "attributes" : [ "external" ],
+    "id" : "165",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#AfterUse",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Nutzungsende",
+      "IRI-based" : "AfterUse",
+      "en" : "After use"
+    },
+    "individuals" : [ {
+      "iri" : "http://iirds.tekom.de/iirds#GenericAfterUse",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Generic instance of the AfterUse class. "
+      },
+      "labels" : {
+        "de" : "Nutzungsende",
+        "IRI-based" : "GenericAfterUse",
+        "en" : "After use"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#Disposal",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Lifecycle phase of a product describing the elimination of components, mounted parts and lubricant considering the country-specific current law."
+      },
+      "labels" : {
+        "de" : "Entsorgung",
+        "IRI-based" : "Disposal",
+        "en" : "Disposal"
+      }
+    } ],
+    "comment" : {
+      "en" : "Parent class for iiRDS standard definitions of product lifecycle phases that occur after the active use of the product. "
+    },
+    "attributes" : [ "external" ],
+    "id" : "56",
+    "superClasses" : [ "51" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#TechnicalData",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Technische Daten",
+      "IRI-based" : "TechnicalData",
+      "en" : "Technical data"
+    },
+    "individuals" : [ {
+      "iri" : "http://iirds.tekom.de/iirds#GenericTechnicalData",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Generic instance of the TechnicalData class."
+      },
+      "labels" : {
+        "de" : "Technische Daten",
+        "IRI-based" : "GenericTechnicalData",
+        "en" : "Technical data"
+      }
+    } ],
+    "comment" : {
+      "en" : "Information subject class. Information that describes the technical characteristics of a product or component in sufficient detail for assembly, integration, operation, and maintenance."
+    },
+    "attributes" : [ "external" ],
+    "id" : "163",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#ProductProperty",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Produkteigenschaft",
+      "IRI-based" : "ProductProperty",
+      "en" : "Product property"
+    },
+    "individuals" : [ {
+      "iri" : "http://iirds.tekom.de/iirds#GenericProductProperty",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Generic instance of the ProductProperty class."
+      },
+      "labels" : {
+        "de" : "Produkteigenschaft",
+        "IRI-based" : "GenericProductProperty",
+        "en" : "Product property"
+      }
+    } ],
+    "comment" : {
+      "en" : "A characteristic of a product or component."
+    },
+    "attributes" : [ "external" ],
+    "id" : "100",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#Task",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Aufgabe",
+      "IRI-based" : "Task",
+      "en" : "Task"
+    },
+    "individuals" : [ {
+      "iri" : "http://iirds.tekom.de/iirds#GenericTask",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Topic type that contains procedural information for work activities."
+      },
+      "labels" : {
+        "de" : "Aufgabe",
+        "IRI-based" : "GenericTask",
+        "en" : "Task"
+      }
+    } ],
+    "comment" : {
+      "en" : "Class of topic types that contains procedural information for work activities."
+    },
+    "attributes" : [ "external" ],
+    "id" : "59",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#PuttingToUse",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "In Nutzung nehmen",
+      "IRI-based" : "PuttingToUse",
+      "en" : "Putting to use"
+    },
+    "individuals" : [ {
+      "iri" : "http://iirds.tekom.de/iirds#GenericPuttingToUse",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Generic instance of the GenericPuttingToUse class."
+      },
+      "labels" : {
+        "de" : "In Nutzung nehmen",
+        "IRI-based" : "GenericPuttingToUse",
+        "en" : "Putting to use"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#Installation",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Lifecycle phase of a product containing procedures for installing and setting up a software or IT system."
+      },
+      "labels" : {
+        "de" : "Installation",
+        "IRI-based" : "Installation",
+        "en" : "Installation"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#Configuration",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Lifecycle phase of a product describing activities related to configuring the settings of a technical system before use."
+      },
+      "labels" : {
+        "de" : "Einrichtung",
+        "IRI-based" : "Configuration",
+        "en" : "Configuration"
+      }
+    } ],
+    "comment" : {
+      "en" : "Parent class for subclasses that describe product lifecycle phases related to putting a product or technical system to use."
+    },
+    "attributes" : [ "external" ],
+    "id" : "53",
+    "superClasses" : [ "51" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#Fragment",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Fragment",
+      "IRI-based" : "Fragment",
+      "en" : "Fragment"
+    },
+    "comment" : {
+      "en" : "A piece of information within a document or topic."
+    },
+    "attributes" : [ "external" ],
+    "id" : "89",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#DirectoryNodeType",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Verzeichnistyp",
+      "IRI-based" : "DirectoryNodeType",
+      "en" : "Directory node type"
+    },
+    "individuals" : [ {
+      "iri" : "http://iirds.tekom.de/iirds#ListOfListings",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "de" : "Verzeichnistyp für Programmcode",
+        "en" : "Code listing"
+      },
+      "labels" : {
+        "de" : "Codeverzeichnis",
+        "IRI-based" : "ListOfListings",
+        "en" : "List of listings"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#Index",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "de" : "Verzeichnistyp Index",
+        "en" : "Index directory type"
+      },
+      "labels" : {
+        "de" : "Index",
+        "IRI-based" : "Index",
+        "en" : "Index"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#TableOfContents",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "de" : "Inhaltsverzeichnis",
+        "en" : "Table of contents"
+      },
+      "labels" : {
+        "de" : "Inhaltsverzeichnis",
+        "IRI-based" : "TableOfContents",
+        "en" : "Table of contents"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#ListOfFigures",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "de" : "Abbildungsverzeichnis",
+        "en" : "List of figures"
+      },
+      "labels" : {
+        "de" : "Abbildungsverzeichnis",
+        "IRI-based" : "ListOfFigures",
+        "en" : "List of figures"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#ListOfTables",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "de" : "Tabellenverzeichnis",
+        "en" : "List of tables"
+      },
+      "labels" : {
+        "de" : "Tabellenverzeichnis",
+        "IRI-based" : "ListOfTables",
+        "en" : "List of tables"
+      }
+    } ],
+    "comment" : {
+      "de" : "Verzeichnistyp",
+      "en" : "Directory type"
+    },
+    "attributes" : [ "external" ],
+    "id" : "5",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "96",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#duration",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "47",
+    "label" : {
+      "IRI-based" : "duration"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "17",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "195",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "130",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "77",
+    "label" : {
+      "IRI-based" : "dateTimeStamp"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "193",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "124",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#Concept",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Beschreibung",
+      "IRI-based" : "Concept",
+      "en" : "Concept"
+    },
+    "individuals" : [ {
+      "iri" : "http://iirds.tekom.de/iirds#GenericConcept",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Topic type that provides background that helps readers understand essential information about a product, interface, or task."
+      },
+      "labels" : {
+        "de" : "Beschreibung",
+        "IRI-based" : "GenericConcept",
+        "en" : "Concept"
+      }
+    } ],
+    "comment" : {
+      "en" : "Class of topic types that provide background that helps readers understand essential information about a product, interface, or task."
+    },
+    "attributes" : [ "external" ],
+    "id" : "61",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "145",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "185",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2006/vcard/ns#Kind",
+    "baseIri" : "http://www.w3.org/2006/vcard/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Kind"
+    },
+    "attributes" : [ "external" ],
+    "id" : "31"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#nil",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Ende einer Verzeichnisstruktur",
+      "IRI-based" : "nil",
+      "en" : "End of Directory node"
+    },
+    "comment" : {
+      "de" : "Das Ende in einer verketteten Liste von Verzeichnisknoten ",
+      "en" : "The end in a chain of directory nodes"
+    },
+    "attributes" : [ "external" ],
+    "id" : "98",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#RangeSelector",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Bereichsselektor",
+      "IRI-based" : "RangeSelector",
+      "en" : "Range selector"
+    },
+    "comment" : {
+      "de" : "Verweist auf einen Bereich in einer physikalischen Ressource. Hat einen Start- und einen Endpunkt.",
+      "en" : "Points to a range in a physical resource. Has a start and end point."
+    },
+    "attributes" : [ "external" ],
+    "id" : "33",
+    "superClasses" : [ "40" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#InformationObject",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Informationsobjekt",
+      "IRI-based" : "InformationObject",
+      "en" : "Information object"
+    },
+    "comment" : {
+      "en" : "A version-independent and language-independent equivalent to an information unit."
+    },
+    "attributes" : [ "external" ],
+    "id" : "39",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#Safety",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Sicherheit",
+      "IRI-based" : "Safety",
+      "en" : "Safety"
+    },
+    "individuals" : [ {
+      "iri" : "http://iirds.tekom.de/iirds#ForeseeableMisuse",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Information subject. Foreseeable misuse of a product."
+      },
+      "labels" : {
+        "de" : "Vorhersehbarer Fehlgebrauch",
+        "IRI-based" : "ForeseeableMisuse",
+        "en" : "Foreseeable misuse"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#GenericSafety",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Generic instance of the Safety class."
+      },
+      "labels" : {
+        "de" : "Sicherheit",
+        "IRI-based" : "GenericSafety",
+        "en" : "Safety"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#IntendedUse",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "de" : "Informationsthema: Rechtlicher Begriff für den bei der Konzeption und Konstruktion einer Maschine festgelegten Einsatzbereich, der in der Betriebsanleitung/Technischen Dokumentation beschrieben wird und auch Überlegungen zur vernünftigerweise vorhersehbaren Verwendung bzw. zu möglicher Fehlverwendung beinhaltet.",
+        "en" : "Information subject: Legal concept outlining the field of application specified in matters of design and construction of the machinery which is described in the operating instructions/technical documentation, including considerations of the reasonable foreseeable use and potential misuse."
+      },
+      "labels" : {
+        "de" : "Bestimmungsgemäße Verwendung",
+        "IRI-based" : "IntendedUse",
+        "en" : "Intended use"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#SafetyInstruction",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Information subject. Safety instructions explain to the user how to handle a product in a safe way."
+      },
+      "labels" : {
+        "de" : "Sicherheitshinweis",
+        "IRI-based" : "SafetyInstruction",
+        "en" : "Safety instruction"
+      }
+    }, {
+      "iri" : "http://iirds.tekom.de/iirds#RestrictionOnUse",
+      "baseIri" : "http://iirds.tekom.de/iirds",
+      "comment" : {
+        "en" : "Information subjects. Specifies that there are restrictions regarding the use of the product."
+      },
+      "labels" : {
+        "de" : "Einsatzbeschränkungen",
+        "IRI-based" : "RestrictionOnUse",
+        "en" : "Restriction on use"
+      }
+    } ],
+    "subClasses" : [ "63" ],
+    "comment" : {
+      "en" : "Information subject. Abstract base class for safety subjects."
+    },
+    "attributes" : [ "external" ],
+    "id" : "64",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#FragmentSelector",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "instances" : 0,
+    "label" : {
+      "de" : "Fragmentselektor",
+      "IRI-based" : "FragmentSelector",
+      "en" : "Fragment selector"
+    },
+    "comment" : {
+      "de" : "Verweist auf Fragment in einer physikalischen Ressource.",
+      "en" : "Points to a fragment in a physical resource."
+    },
+    "attributes" : [ "external" ],
+    "id" : "34",
+    "superClasses" : [ "40" ]
+  } ],
+  "property" : [ {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "30",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "32",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "28",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "45",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "46",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "49",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "27",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "65",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "68",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "69",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "72",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "74",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "76",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "78",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "79",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "81",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "82",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "84",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "85",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "88",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "90",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "92",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "94",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "95",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "101",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "102",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "104",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "106",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "107",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "109",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "115",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "118",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "66",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "119",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "123",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "126",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "127",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "129",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "29",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "131",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "133",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "134",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "135",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "136",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "137",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "138",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "139",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "140",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "141",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "142",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "143",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "35",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "144",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "147",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "148",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "149",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "150",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "151",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "152",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "153",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "154",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "155",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "156",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "157",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "158",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "160",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "161",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "162",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "164",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "166",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "167",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "168",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "169",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "173",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "174",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "175",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "176",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "177",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "178",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "179",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "180",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "181",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "182",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "183",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "184",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "186",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "187",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "188",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "189",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "190",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "191",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "192",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "194",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "170",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "196",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "172",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "197",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "198",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "199",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "132",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "200",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "201",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "202",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "203",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "171",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "204",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "205",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "206",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "207",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "208",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://iirds.tekom.de/iirds#relates-to-component",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "10",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#Component",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#InformationUnit",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "bezieht sich auf Komponente",
+      "IRI-based" : "relates-to-component",
+      "en" : "relates to component"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "9",
+    "comment" : {
+      "en" : "Relates to a component."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#purpose",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "17",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#ContentLifeCycleStatus",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "Zweck",
+      "IRI-based" : "purpose",
+      "en" : "Purpose"
+    },
+    "domain" : "16",
+    "comment" : {
+      "de" : "Begründung zum Ausüben der Statusänderung.",
+      "en" : "Specifies the reason for changing the content lifecycle status."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#has-subject",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "6",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#InformationSubject",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#InformationUnit",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "hat Thema",
+      "IRI-based" : "has-subject",
+      "en" : "has subject"
+    },
+    "superproperty" : [ "25" ],
+    "domain" : "9",
+    "comment" : {
+      "de" : "Verweist auf das Thema einer Informationseinheit.",
+      "en" : "References the subject of an information unit."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#has-information-type",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "2",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#InformationType",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#InformationUnit",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "hat Informationsart",
+      "IRI-based" : "has-information-type",
+      "en" : "has information type"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "9",
+    "subproperty" : [ "24", "27", "28", "29" ],
+    "comment" : {
+      "en" : "The nature and subject of an information unit."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#relates-to-vcard",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "31",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2006/vcard/ns#Kind",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#Party",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "bezieht sich auf vCard",
+      "IRI-based" : "relates-to-vcard",
+      "en" : "relates to vCard"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "0",
+    "comment" : {
+      "en" : "Relates to a vCard providing detailed information about the party."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#has-start-selector",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "34",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#FragmentSelector",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#RangeSelector",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "hat Startselektor",
+      "IRI-based" : "has-start-selector",
+      "en" : "has start selector"
+    },
+    "superproperty" : [ "35" ],
+    "domain" : "33",
+    "comment" : {
+      "en" : "References the start of a range in a file."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#has-document-type",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "7",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#DocumentType",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#Document",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "hat Dokumentart",
+      "IRI-based" : "has-document-type",
+      "en" : "has document type"
+    },
+    "superproperty" : [ "25" ],
+    "domain" : "37",
+    "comment" : {
+      "en" : "The type of a document."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#has-directory-structure-type",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "5",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#DirectoryNodeType",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#DirectoryNode",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "hat Verzeichnisstrukturtyp",
+      "IRI-based" : "has-directory-structure-type",
+      "en" : "has directory structure type"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "41",
+    "comment" : {
+      "de" : "Die Natur des Verzeichnisses",
+      "en" : "The nature of the directory."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#duration",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "47",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2001/XMLSchema#duration",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#PlanningTime",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "Dauer",
+      "IRI-based" : "duration",
+      "en" : "Duration"
+    },
+    "domain" : "22",
+    "comment" : {
+      "de" : "Dauer",
+      "en" : "A span of time."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "46"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#relates-to-product-variant",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "50",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#ProductVariant",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#InformationUnit",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "bezieht sich auf Produktvariante",
+      "IRI-based" : "relates-to-product-variant",
+      "en" : "relates to product variant"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "9",
+    "comment" : {
+      "en" : "Relates to product variant."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "49"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#has-topic-type",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "4",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#TopicType",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#InformationUnit",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "hat Topictyp",
+      "IRI-based" : "has-topic-type",
+      "en" : "has topic type"
+    },
+    "superproperty" : [ "25" ],
+    "domain" : "9",
+    "comment" : {
+      "en" : "The nature of an information unit."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "27"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#relates-to-supply",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "23",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#Supply",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#InformationUnit",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "bezieht sich auf Hilfsmittel",
+      "IRI-based" : "relates-to-supply",
+      "en" : "relates to supply"
+    },
+    "superproperty" : [ "66" ],
+    "domain" : "9",
+    "comment" : {
+      "en" : "Relates to a supply that is required for the tasks or activities described in the information unit."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "65"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#has-end-selector",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "34",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#FragmentSelector",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#RangeSelector",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "hat Endselektor",
+      "IRI-based" : "has-end-selector",
+      "en" : "has end selector"
+    },
+    "superproperty" : [ "35" ],
+    "domain" : "33",
+    "comment" : {
+      "en" : "References the end of a range in a file."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "68"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#formatRestriction",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "71",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#Package",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "Formateinschränkung",
+      "IRI-based" : "formatRestriction",
+      "en" : "Format Restriction"
+    },
+    "domain" : "70",
+    "comment" : {
+      "en" : "Restriction to the media formats used in the package."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#title",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "73",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#InformationUnit",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "Titel",
+      "IRI-based" : "title",
+      "en" : "Title"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "A name given to the information unit."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "72"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#description",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "75",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#iirdsDomainEntity",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "Beschreibung",
+      "IRI-based" : "description",
+      "en" : "Description"
+    },
+    "domain" : "3",
+    "comment" : {
+      "en" : "An account of the resource."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "74"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#dateOfStatus",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "77",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#ContentLifeCycleStatus",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "Vergabedatum",
+      "IRI-based" : "dateOfStatus",
+      "en" : "Status date"
+    },
+    "domain" : "16",
+    "comment" : {
+      "en" : "Specifies the date and time on which content lifecycle status was changed."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "76"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#relates-to-information-unit",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "9",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#InformationUnit",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#DirectoryNode",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "bezieht sich auf Informationseinheit",
+      "IRI-based" : "relates-to-information-unit",
+      "en" : "relates to information unit"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "41",
+    "comment" : {
+      "en" : "Relates to an information unit from a directory node."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "78"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#has-event-code",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "80",
+    "annotations" : {
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#Event",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "hat Ereigniscode",
+      "IRI-based" : "has-event-code",
+      "en" : "has event code"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "80",
+    "comment" : {
+      "en" : "References the code of the event."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "79"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#has-planning-time",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "22",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#PlanningTime",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#InformationUnit",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "hat Zeit",
+      "IRI-based" : "has-planning-time",
+      "en" : "has time"
+    },
+    "superproperty" : [ "66" ],
+    "domain" : "9",
+    "comment" : {
+      "en" : "References the planning time that is related to specific tasks or information described in an information unit."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "81"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#dateOfCreation",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "83",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#InformationUnit",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "Erstellungsdatum",
+      "IRI-based" : "dateOfCreation",
+      "en" : "Date of Creation"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "Date of creation of the information unit"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "82"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#has-component",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "10",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#Component",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#Component",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "hat Komponente",
+      "IRI-based" : "has-component",
+      "en" : "has component"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "10",
+    "comment" : {
+      "de" : "Verweist auf eine Kompoente, die Teil einer anderen Komponente ist.",
+      "en" : "Relates to a component that is part of another component."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "84"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#dateOfExpiry",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "86",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#ContentLifeCycleStatus",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "Auslaufdatum",
+      "IRI-based" : "dateOfExpiry",
+      "en" : "Expiry date"
+    },
+    "domain" : "16",
+    "comment" : {
+      "de" : "Datum und Uhrzeit, an dem der vergebene Status ungültig wird.",
+      "en" : "Date and time on which the given content lifecycle status becomes invalid."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "85"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#has-rendition",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "38",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#Rendition",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#InformationUnit",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "hat Inhaltsausprägung",
+      "IRI-based" : "has-rendition",
+      "en" : "has rendition"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "9",
+    "comment" : {
+      "de" : "Verweist auf eine Inhaltsausprägung einer Informationseinheit.",
+      "en" : "Relates to a rendition of an information unit, meaning a physical file with content."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "88"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#has-content-lifecycle-status-value",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "91",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#ContentLifeCycleStatusValue",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#ContentLifeCycleStatus",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "hat Statuswert",
+      "IRI-based" : "has-content-lifecycle-status-value",
+      "en" : "has status value"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "16",
+    "comment" : {
+      "en" : "References the content lifecycle status value."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "90"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#frequency",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "93",
+    "label" : {
+      "de" : "Wartungsfrequenz",
+      "IRI-based" : "frequency",
+      "en" : "Maintenance frequency"
+    },
+    "domain" : "43",
+    "comment" : {
+      "de" : "Wartungsfrequenz",
+      "en" : "Maintenance frequency"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "92"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#relates-to-product-lifecycle-phase",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "51",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#ProductLifeCyclePhase",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#InformationUnit",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "bezieht sich auf Produktlebenszyklusphase",
+      "IRI-based" : "relates-to-product-lifecycle-phase",
+      "en" : "relates to phase of the product lifecycle"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "9",
+    "comment" : {
+      "en" : "Relates to a product lifecycle phase."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "94"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#language",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "96",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#InformationUnit",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "Sprache",
+      "IRI-based" : "language",
+      "en" : "Language"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "A language of the resource."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "95"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#has-abstract",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "80",
+    "annotations" : {
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#InformationUnit",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "hat Zusammenfassung",
+      "IRI-based" : "has-abstract",
+      "en" : "has abstract"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "80",
+    "comment" : {
+      "en" : "Relates to a literal or information unit that provides an abstract/summary for the information unit."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "101"
+  }, {
+    "range" : "1",
+    "domain" : "103",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "102"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#has-first-child",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "41",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#DirectoryNode",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#DirectoryNode",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "hat als erstes Kindelement",
+      "IRI-based" : "has-first-child",
+      "en" : "has first child"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "41",
+    "comment" : {
+      "de" : "Verweist auf den ersten Verzeichniseintrag in der nächsten Unterebene.",
+      "en" : "References the first directory node on the next sub level."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "104"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#is-replacement-of",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "9",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#InformationUnit",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#InformationUnit",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "ersetzt",
+      "IRI-based" : "is-replacement-of",
+      "en" : "replaces"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "9",
+    "comment" : {
+      "en" : "References the information unit that is replaced by this information unit."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "106"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#identifier",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "108",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#Identity",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "Bezeichner",
+      "IRI-based" : "identifier",
+      "en" : "Identifier"
+    },
+    "domain" : "103",
+    "comment" : {
+      "de" : "Eine eindeutige Referenz auf die Resource in einem gegebenen Kontext.",
+      "en" : "An unambiguous reference to the resource within a given context."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "107"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#relates-to-qualification",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "20",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#Qualification",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#InformationUnit",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "bezieht sich auf Qualifikation",
+      "IRI-based" : "relates-to-qualification",
+      "en" : "relates to qualification"
+    },
+    "superproperty" : [ "66" ],
+    "domain" : "9",
+    "comment" : {
+      "en" : "Relates to a qualification that is required for the tasks or activities described in the information unit."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "109"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "110"
+  }, {
+    "range" : "2",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "111"
+  }, {
+    "range" : "2",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "112"
+  }, {
+    "range" : "2",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "114"
+  }, {
+    "range" : "2",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "115"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#relates-to-event",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "21",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#Event",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#InformationUnit",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "bezieht sich auf Ereignis",
+      "IRI-based" : "relates-to-event",
+      "en" : "relates to event"
+    },
+    "superproperty" : [ "66" ],
+    "domain" : "9",
+    "comment" : {
+      "en" : "Relates to an event."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "118"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#relates-to-functional-metadata",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "18",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#FunctionalMetadata",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#InformationUnit",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "bezieht sich auf funktionale Metadaten",
+      "IRI-based" : "relates-to-functional-metadata",
+      "en" : "relates to functional metadata"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "9",
+    "subproperty" : [ "118", "109", "81", "65" ],
+    "comment" : {
+      "de" : "Erzeugt Beziehung von einer iiRDS-Entität zu funktionalen Metadaten.",
+      "en" : "Relates an iiRDS entity to functional metadata."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "66"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#revision",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "120",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#InformationUnit",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "Revision",
+      "IRI-based" : "revision",
+      "en" : "Revision"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "Version of the information unit."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "119"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#rights",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "124",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#InformationUnit",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "Rechte",
+      "IRI-based" : "rights",
+      "en" : "Rights"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "Information about rights held in and over the resource."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "123"
+  }, {
+    "range" : "22",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "126"
+  }, {
+    "range" : "51",
+    "domain" : "53",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "127"
+  }, {
+    "range" : "22",
+    "domain" : "44",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "128"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#statusComment",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "130",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#ContentLifeCycleStatus",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "Kommentar zum Status",
+      "IRI-based" : "statusComment",
+      "en" : "Status comment"
+    },
+    "domain" : "16",
+    "comment" : {
+      "de" : "Anmerkungen im Zusammenhang mit der Vergabe des Status",
+      "en" : "Comment describing the status change."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "129"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#is-applicable-for-document-type",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "7",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#DocumentType",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#InformationUnit",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "geeignet für Dokumentart",
+      "IRI-based" : "is-applicable-for-document-type",
+      "en" : "applicable for document type"
+    },
+    "superproperty" : [ "25" ],
+    "domain" : "9",
+    "comment" : {
+      "en" : "Specifies that the information unit is suitable and can be used for specific types of documents."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#has-content-lifecycle-status",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "16",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#ContentLifeCycleStatus",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#InformationUnit",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "hat Beziehung zu Bearbeitungsstatus",
+      "IRI-based" : "has-content-lifecycle-status",
+      "en" : "relates to content lifecycle status"
+    },
+    "superproperty" : [ "132" ],
+    "domain" : "9",
+    "comment" : {
+      "en" : "References the content lifecycle status of the information unit."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "131"
+  }, {
+    "range" : "3",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "133"
+  }, {
+    "range" : "3",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "134"
+  }, {
+    "range" : "22",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "135"
+  }, {
+    "range" : "3",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "136"
+  }, {
+    "range" : "3",
+    "domain" : "39",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "137"
+  }, {
+    "range" : "3",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "138"
+  }, {
+    "range" : "3",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "139"
+  }, {
+    "range" : "3",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "140"
+  }, {
+    "range" : "3",
+    "domain" : "38",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "141"
+  }, {
+    "range" : "40",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "142"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#relates-to-product-feature",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "14",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#ProductFeature",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#InformationUnit",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "bezieht sich auf Produkteigenschaft",
+      "IRI-based" : "relates-to-product-feature",
+      "en" : "relates to product feature"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "9",
+    "comment" : {
+      "en" : "Relates to a product feature."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "143"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#has-selector",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "40",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#Selector",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#Rendition",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "hat Selektor",
+      "IRI-based" : "has-selector",
+      "en" : "has selector"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "113",
+    "subproperty" : [ "32", "68" ],
+    "comment" : {
+      "en" : "References the selector that is used to relate the information unit to a physical file with content."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#source",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "145",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#Rendition",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "Quelle",
+      "IRI-based" : "source",
+      "en" : "Source"
+    },
+    "domain" : "38",
+    "comment" : {
+      "en" : "Relative path to the file containing the content of a rendition."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "144"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#has-party-role",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "105",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#PartyRole",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#Party",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "hat administrative Rolle",
+      "IRI-based" : "has-party-role",
+      "en" : "has administrative role"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "0",
+    "comment" : {
+      "en" : "References the role that the party has with respect to an entity referencing the party."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "147"
+  }, {
+    "range" : "40",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "148"
+  }, {
+    "range" : "18",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "149"
+  }, {
+    "range" : "18",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "150"
+  }, {
+    "range" : "18",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "151"
+  }, {
+    "range" : "18",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "152"
+  }, {
+    "range" : "1",
+    "domain" : "67",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "153"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#iirdsAttribute",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "125",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#iirdsDomainEntity",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "iirdsAttribute",
+      "IRI-based" : "iirdsAttribute",
+      "en" : "iirdsAttribute"
+    },
+    "domain" : "80",
+    "comment" : {
+      "en" : "Property type. Abstract base class of all properties with literal values."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "154"
+  }, {
+    "range" : "1",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "155"
+  }, {
+    "range" : "1",
+    "domain" : "91",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "156"
+  }, {
+    "range" : "1",
+    "domain" : "105",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "157"
+  }, {
+    "range" : "6",
+    "domain" : "159",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "158"
+  }, {
+    "range" : "6",
+    "domain" : "146",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "160"
+  }, {
+    "range" : "19",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "161"
+  }, {
+    "range" : "6",
+    "domain" : "163",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "162"
+  }, {
+    "range" : "6",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "164"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#has-identity-domain",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "67",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#IdentityDomain",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#Identity",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "hat Identifier-Domain",
+      "IRI-based" : "has-identity-domain",
+      "en" : "has identifier domain"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "103",
+    "comment" : {
+      "en" : "References the domain that an identifier is valid for."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "166"
+  }, {
+    "range" : "6",
+    "domain" : "165",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "167"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#is-version-of",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "39",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#InformationObject",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#InformationUnit",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "ist Version von",
+      "IRI-based" : "is-version-of",
+      "en" : "is version of"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "9",
+    "comment" : {
+      "en" : "Relates an information unit to an information object."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "168"
+  }, {
+    "range" : "6",
+    "domain" : "87",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "169"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#iirdsRelationConcept",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "3",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#iirdsDomainEntity",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#iirdsDomainEntity",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "iirdsRelationConcept",
+      "IRI-based" : "iirdsRelationConcept",
+      "en" : "iirdsRelationConcept"
+    },
+    "domain" : "3",
+    "subproperty" : [ "88", "132", "170", "35", "11", "104", "90", "84", "106", "66", "147", "171", "166", "30", "168", "25", "78", "172", "45", "101", "79" ],
+    "comment" : {
+      "en" : "Base class for all relations in iiRDS."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#dateOfLastModification",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "122",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#InformationUnit",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "Letztes Änderungsdatum",
+      "IRI-based" : "dateOfLastModification",
+      "en" : "Date of last modification"
+    },
+    "domain" : "80",
+    "comment" : {
+      "en" : "Specifies the date and time on which the information unit was last changed."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "173"
+  }, {
+    "range" : "52",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "174"
+  }, {
+    "range" : "52",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "175"
+  }, {
+    "range" : "6",
+    "domain" : "99",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "176"
+  }, {
+    "range" : "6",
+    "domain" : "97",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "177"
+  }, {
+    "range" : "4",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "178"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#has-identity",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "103",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#Identity",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#Rendition",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#ProductVariant",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#InformationObject",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#Component",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#InformationUnit",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "hat komplexen Identifier",
+      "IRI-based" : "has-identity",
+      "en" : "has complex identifier"
+    },
+    "superproperty" : [ "132" ],
+    "domain" : "117",
+    "comment" : {
+      "en" : "References a complex identifier."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "179"
+  }, {
+    "range" : "4",
+    "domain" : "61",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "180"
+  }, {
+    "range" : "52",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "181"
+  }, {
+    "range" : "52",
+    "domain" : "51",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "182"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#relates-to-party",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "0",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#Party",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#InformationUnit",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#ContentLifeCycleStatus",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#Component",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#IdentityDomain",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#ProductVariant",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "hat Beziehung zu Akteur",
+      "IRI-based" : "relates-to-party",
+      "en" : "relates to party"
+    },
+    "superproperty" : [ "132" ],
+    "domain" : "116",
+    "comment" : {
+      "en" : "Relates to a party, e.g. a company or an organization."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "183"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#iiRDSVersion",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "185",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#Package",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "iiRDS Version",
+      "IRI-based" : "iiRDSVersion",
+      "en" : "iiRDS version"
+    },
+    "domain" : "70",
+    "comment" : {
+      "de" : "iiRDS-Version, die das iiRDS-Paket erfüllt.",
+      "en" : "iiRDS version to which the iiRDS package complies."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "184"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#relates-to-product-metadata",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "52",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#ProductMetadata",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#InformationUnit",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "bezieht sich auf Produktmetadaten",
+      "IRI-based" : "relates-to-product-metadata",
+      "en" : "relates to product metadata"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "9",
+    "subproperty" : [ "94", "143", "49", "8" ],
+    "comment" : {
+      "en" : "Relates to product metadata."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "11"
+  }, {
+    "range" : "4",
+    "domain" : "59",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "186"
+  }, {
+    "range" : "4",
+    "domain" : "58",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "187"
+  }, {
+    "range" : "4",
+    "domain" : "60",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "188"
+  }, {
+    "range" : "51",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "189"
+  }, {
+    "range" : "51",
+    "domain" : "54",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "190"
+  }, {
+    "range" : "4",
+    "domain" : "57",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "191"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#format",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "193",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#Rendition",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "Format",
+      "IRI-based" : "format",
+      "en" : "Format"
+    },
+    "domain" : "38",
+    "comment" : {
+      "de" : "Medientyp (MIME-Type) der Inhaltsausprägung",
+      "en" : "Media type (MIME type) of the rendition"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "192"
+  }, {
+    "range" : "51",
+    "domain" : "56",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "194"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#has-event-type",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "80",
+    "annotations" : {
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#Event",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "hat Ereignistyp",
+      "IRI-based" : "has-event-type",
+      "en" : "has event type"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "80",
+    "comment" : {
+      "en" : "References the type of the event."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "170"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#dateOfEffect",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "121",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#ContentLifeCycleStatus",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "Gültigkeitsbeginn",
+      "IRI-based" : "dateOfEffect",
+      "en" : "Effective date"
+    },
+    "domain" : "16",
+    "comment" : {
+      "de" : "Datum und Uhrzeit, an dem der vergebene Status gültig wird.",
+      "en" : "Date and time on which the given content lifecycle status becomes valid."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "196"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#is-part-of-package",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "70",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#Package",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#InformationUnit",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "ist Teil von Paket",
+      "IRI-based" : "is-part-of-package",
+      "en" : "is part of package"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "9",
+    "comment" : {
+      "en" : "References the package in which the information unit was delivered."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "172"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#synonym",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "195",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#iirdsDomainEntity",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "Synonym",
+      "IRI-based" : "synonym",
+      "en" : "Synonym"
+    },
+    "domain" : "3",
+    "comment" : {
+      "en" : "A word or phrase that means exactly or nearly the same as another word or phrase in the same language."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "197"
+  }, {
+    "range" : "64",
+    "domain" : "63",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "198"
+  }, {
+    "range" : "41",
+    "domain" : "98",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "199"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#relates-to-administrative-metadata",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "1",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#AdministrativeMetadata",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#iirdsDomainEntity",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "bezieht sich auf administrative Metadaten",
+      "IRI-based" : "relates-to-administrative-metadata",
+      "en" : "relates to administrative metadata"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "3",
+    "subproperty" : [ "179", "183", "131" ],
+    "comment" : {
+      "de" : "Erzeugt Beziehung von einer iiRDS-Entität zu administrativen Metadaten.",
+      "en" : "Relates an iiRDS entity to administrative metadata."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "132"
+  }, {
+    "range" : "14",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "200"
+  }, {
+    "range" : "14",
+    "domain" : "100",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "201"
+  }, {
+    "range" : "9",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "202"
+  }, {
+    "range" : "9",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "203"
+  }, {
+    "iri" : "http://iirds.tekom.de/iirds#has-next-sibling",
+    "baseIri" : "http://iirds.tekom.de/iirds",
+    "range" : "41",
+    "annotations" : {
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#DirectoryNode",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://iirds.tekom.de/iirds#DirectoryNode",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "de" : "hat als nächstes Element",
+      "IRI-based" : "has-next-sibling",
+      "en" : "has next sibling"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "41",
+    "comment" : {
+      "de" : "Verweist auf den folgenden Verzeichniseintrag einer Verzeichnisstruktur auf gleicher Ebene.",
+      "en" : "References the following directory node at the same hierarchy level in a directory structure."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "171"
+  }, {
+    "range" : "9",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "204"
+  }, {
+    "range" : "20",
+    "domain" : "36",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "205"
+  }, {
+    "range" : "19",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "206"
+  }, {
+    "range" : "9",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "207"
+  }, {
+    "range" : "20",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "208"
+  } ]
+}
