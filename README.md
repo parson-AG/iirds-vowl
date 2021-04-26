@@ -2,7 +2,7 @@
 
 
 ## Webvowl
-See: visualdataweb.de/webvowl/#url=https://raw.githubusercontent.com/parson-AG/iirds-vowl/main/iirds-core.json
+See: http://visualdataweb.de/webvowl/#url=https://raw.githubusercontent.com/parson-AG/iirds-vowl/main/iirds-core.json
 
 Project on Github: https://github.com/VisualDataWeb/WebVOWL
 
